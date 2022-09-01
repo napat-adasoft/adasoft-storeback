@@ -1,0 +1,12 @@
+1. git clone https://github.com/napat-adasoft/adasoft-storeback.github
+2. git status                       -> for check status clone
+3. git branch                       -> เช็ค branch ปัจจุบันที่เราอยู่
+4. gti branch [name branch]         -> สร้าง branch ของตัวเอง
+5. git checkout [name branch]       -> สลับไป branch ที่ต้องการ
+
+
+6. git add .                        -> เตรียม add file ทั้งหมดขึ้น git 
+7. git add "filename"               -> เลือกเฉพาะไฟล์ที่ต้องการ
+8. git restore --stage "filename"   -> ยกเลิกการอัพไฟล์ใน add
+9. git commit -m 'text'             -> -m เป็นข้อความที่จะ commit ไปด้วย
+10.git push origin [branch name]    -> ส่ง commit ขึ้นไปบน remote repository 
