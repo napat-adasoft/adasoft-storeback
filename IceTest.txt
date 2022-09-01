@@ -10,3 +10,5 @@
 8. git restore --stage "filename"   -> ยกเลิกการอัพไฟล์ใน add
 9. git commit -m 'text'             -> -m เป็นข้อความที่จะ commit ไปด้วย
 10.git push origin [branch name]    -> ส่ง commit ขึ้นไปบน remote repository 
+                                    -> ก่อนจะ push ต้อง pull จาก Github repository ลงมา Local เพื่อให้ Local เหมือนปัจจุบันก่อน ถึงจะ push ไป
+11.git pull origin [branch name]    -> ดึงข้อมูลจากบน github ลงมาที่เครื่องของเรา
