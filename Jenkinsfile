@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Checkout') {
 steps {
-git(url: 'https://github.com/IcePunyisa/Test.git', branch: 'main')
+git(url: 'https://github.com/napat-adasoft/adasoft-storeback.git', branch: 'production')
 }
 }
 stage('Release') {
